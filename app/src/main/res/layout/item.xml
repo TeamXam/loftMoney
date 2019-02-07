@@ -21,7 +21,7 @@
         android:layout_weight="1"
         tools:text="Молоко"
         android:textColor="@color/medium_grey"
-        android:textSize="20sp" />
+        android:textSize="@dimen/tsize" />
 
     <TextView
         android:id="@+id/price"
@@ -33,7 +33,7 @@
         android:layout_weight="0"
         tools:text="70"
         android:textColor="@color/dark_sky_blue"
-        android:textSize="20sp"
+        android:textSize="@dimen/tsize"
         />
 
 
